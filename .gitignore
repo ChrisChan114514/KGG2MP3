@@ -1,0 +1,57 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local settings, logs, and temporary output
+.env
+.env.*
+*.log
+*.tmp
+*.part
+*.part.*
+
+# KuGou encrypted media and related containers
+*.kgg
+*.kgm
+*.kgma
+*.vpr
+*.krc
+
+# Databases, per-track keys, backups, and other sensitive local material
+KGMusicV3.db
+KGMusicV3.bak
+kgg.key
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+
+# Converted or source audio: never commit commercial/user-owned media
+Code/Mp3_Output/
+*.mp3
+*.flac
+*.ogg
+*.oga
+*.wav
+*.m4a
+*.aac
+*.wma
+*.ape
+
+# The only intentionally publishable audio fixture is generated locally and CC0.
+!examples/original_demo.mp3
